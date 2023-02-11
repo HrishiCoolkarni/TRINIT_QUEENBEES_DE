@@ -33,7 +33,7 @@ introduce one bit of error. It must comprise a pseudo-noise sequence counter
 that counts in the following order and then repeats:
 8, 11, 5, 1, 2, 7, 0, 4, 3, 9, 10, 6 <br>
  
-First we have to implement the pseudo-noise sequence counter with truth table:
+Truth Table for Pseudo-Noise Sequence:
 ![truthTable](https://github.com/HrishiCoolkarni/TRINIT_QUEENBEES_DE/blob/main/PN_seq_truthTable.png)<br>
 
 The logisim circuit:<br>
