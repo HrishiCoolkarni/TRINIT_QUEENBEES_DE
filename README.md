@@ -73,14 +73,14 @@ Noisy Channel ( the above circuit ) makes the necessary alteration to the encode
 - Once the bit is changed, the PSN moves onto its next state while the sub-counter resets back into 0000 state ( ie, the initial state for an upcounter )
 
 
-##Decoder Circuit 
-###BMU 
+## Decoder Circuit<br>
+### BMU 
 - Calculates the branch metric, which the hamming distance between the inputs
 - Idea here is that we compare whether each bit is dissimilar to count the hamming distance and accordingly manipulate the output 
 
 ![bmu.png](https://github.com/HrishiCoolkarni/TRINIT_QUEENBEES_DE/blob/main/BMU.png)<br>
 
-###ASC
+### ASC
 - It adds the present computed BMU with the Path Metric computed from the previous iteration
 - Path metric is the cummulative bmu, which is done using a 4 bit adder
 - It uses a comparator module that which checks the least of the weights and chooses that to proceed with. We attach it with two PMUs as the input with one being for the high path and the other for the low path 
@@ -88,7 +88,7 @@ Noisy Channel ( the above circuit ) makes the necessary alteration to the encode
 
 ![ASC.png](https://github.com/HrishiCoolkarni/TRINIT_QUEENBEES_DE/blob/main/ASC.png)<br>
 
-###SMU
+### SMU
 - It consists of 6 flipflops, each of which represents and stores the PMU at that particular stage for that state
 - It thus has 4 states that it stores the respective weights for, the states being 00, 01, 01 and 11
 
