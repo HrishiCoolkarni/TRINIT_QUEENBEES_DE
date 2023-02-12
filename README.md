@@ -58,5 +58,10 @@ introducing a noise to our encoded signal.</b><hr/>
 ### noisy_channel<br>
 ![noisy_Channel.png](https://github.com/HrishiCoolkarni/TRINIT_QUEENBEES_DE/blob/main/nosiy_channel.png)<br>
 
-
+Noisy Channel ( the above circuit ) makes the necessary alteration to the encoded input that comes in. It works as follows
+- The Pseudo-Noise Sequence (PSN) , produces its output, after which it momentarily frezzes before moving to its next state
+- The sub-counter ( an up counter ) begins counting from its 0000 state till the number that the PSN produces
+- When the comparator turns 1, ie, when the up counter and the PSN value match, the signal bit is flipped, hence the noise is introduced
+- Basically the sub-counter counts till the bit that needs to be changed arrives, it shifts until then, once that particular bit arrives, the circuit makes the change it is supposed to the encoded signal.
+- Once the bit is changed, the PSN moves onto its next state while the sub-counter resets back into 0000 state ( ie, the initial state for an upcounter )
 
