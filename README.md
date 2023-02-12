@@ -56,7 +56,11 @@ introducing a noise to our encoded signal.</b><hr/>
 ![Upcounter.png](https://github.com/HrishiCoolkarni/TRINIT_QUEENBEES_DE/blob/main/upcounter.png)<br>
 
 4-bit-B>A-compartor circuit<br>
-![Upcounter.png](https://github.com/HrishiCoolkarni/TRINIT_QUEENBEES_DE/blob/main/b_greaterthan_a_comp_circuit.png)<br>
+![B>A.png](https://github.com/HrishiCoolkarni/TRINIT_QUEENBEES_DE/blob/main/b_greaterthan_a_comp_circuit.png)<br>
+
+4-bit-adder circuit<br>
+![full_adder.png](https://github.com/HrishiCoolkarni/TRINIT_QUEENBEES_DE/blob/main/full_add.png)<br>
+![4_bit_adder.png](https://github.com/HrishiCoolkarni/TRINIT_QUEENBEES_DE/blob/main/4bit_adder.png)<br>
 
 ### noisy_channel<br>
 ![noisy_Channel.png](https://github.com/HrishiCoolkarni/TRINIT_QUEENBEES_DE/blob/main/nosiy_channel.png)<br>
